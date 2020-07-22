@@ -6,7 +6,7 @@ This proxy forward data from one net interface to another and back
 Prox
 ```mermaid
 sequenceDiagram
-	SOEM      ->>  host_eth1: init stream
+    SOEM      ->>  host_eth1: init stream
 
     opt Virtual machine
     host_eth1 ->>  +vm_eth1: send datagramm
